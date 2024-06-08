@@ -22,3 +22,7 @@ public static void main(String[] args){
 }
 
 }
+
+
+//https://leetcode.com/problems/valid-anagram/solutions/3687854/3-method-s-c-java-python-beginner-friendly/
+//https://leetcode.com/problems/contains-duplicate/description/
