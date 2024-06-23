@@ -3,7 +3,15 @@ import java.util.HashMap;
 public class wordPattern {
 
     // https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150
-    public boolean wordPattern(String pattern, String s) {
+
+    public static void main(String args[]){
+        String s1="abca";
+        String s2="aword bword cword aword";
+        boolean result =wordPattern(s1,s2);
+        System.out.println(result);
+    }
+
+    public static boolean wordPattern(String pattern, String s) {
         String[] word = s.split(" ");
         if(word.length != pattern.length()) return false;
 
